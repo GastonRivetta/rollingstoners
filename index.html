@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forever Fun | Chupachups</title>
+  <meta name="description" content="Los famosos Chupa Chups te ofrecen una gran variedad de sabores y formatos para disfrutar en cualquier momento, ¡porque la diversión no tiene edad!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Passion+One:wght@700;900&family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/reeves-picks.css">
+</head>
+<body>
+<div class="cc">
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="lolli" viewBox="0 0 60 150"><circle cx="30" cy="30" r="26" fill="#fff" fill-opacity=".92"/><circle cx="30" cy="30" r="17" fill="currentColor"/><circle cx="30" cy="30" r="8" fill="#ffed00"/><rect x="27" y="56" width="6" height="92" rx="3" fill="#e9e9ee"/></symbol>
+  </svg>
+
+  <!-- HERO + NAV -->
+  <header class="hero">
+    <img class="deco" src="https://www.chupachups.es/decorations/chupachups/lightning.svg" alt="" style="left:40%;top:52%;height:80px">
+    <img class="deco" src="https://www.chupachups.es/decorations/chupachups/rectangle.svg" alt="" style="right:10%;top:68%;height:60px">
+    <img class="deco" src="https://www.chupachups.es/decorations/chupachups/rectangle.svg" alt="" style="left:10%;top:48%;height:50px">
+    <div class="wrap" style="position:relative">
+      <a class="logo" href="https://www.chupachups.es/" aria-label="Chupa Chups">
+        <svg viewBox="0 0 100 100"><path d="M50 4c10 0 14 8 22 8s16 6 14 16c0 6 8 12 6 22 0 8-6 12-6 18 2 10-6 16-14 16-8 0-12 10-22 10S38 94 30 94s-16-6-14-16c0-6-8-10-6-18 0-10 6-14 6-20-2-10 6-16 14-16s10-20 20-20z" fill="#ffed00" stroke="#9a0a12" stroke-width="3"/><text x="50" y="46" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-weight="900" font-size="22" fill="#c40d18">Chupa</text><text x="50" y="70" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-weight="900" font-size="22" fill="#c40d18">Chups</text></svg>
+      </a>
+      <nav class="navcard" aria-label="Menú">
+        <a class="top hf" href="https://www.chupachups.es/products">Products <i>→</i></a>
+        <ul>
+          <li><a href="https://www.chupachups.es/historia">Our Story</a></li>
+          <li><a href="https://www.chupachups.es/promotions">News</a></li>
+          <li><a href="https://www.chupachups.es/faq">FAQ</a></li>
+        </ul>
+        <div class="contact"><a href="https://www.chupachups.es/contacto">Contact</a></div>
+        <img src="https://www.chupachups.es/decorations/chupachups/orange-left.png" alt="" style="position:absolute;right:6px;bottom:-40px;height:110px">
+      </nav>
+      <div class="photo"><img src="https://cdn.sanity.io/images/e4jxgyeh/production/17bfd6189ccd4c82d2f2a69457e852b47f114fea-1080x1082.png?rect=0,1,1080,1080&w=775&h=775&auto=format" alt=""></div>
+      <div class="txt">
+        <h1>Forever Fun</h1>
+        <p>The discrete controlled dosing of Rollingstoners edibles uses the hgihest quality ingredients and safest practices to ensure a trusted experience.</p>
+        <a class="btn" href="https://www.chupachups.es/productos">See More</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+   
+
+    <!-- PRODUCT CATEGORIES -->
+    <section class="prods">
+      <img class="deco" src="https://www.chupachups.es/decorations/chupachups/lightning.svg" alt="" style="left:58%;top:7rem;height:70px">
+      <img class="deco" src="https://www.chupachups.es/decorations/chupachups/circle.svg" alt="" style="right:14%;top:8rem;height:56px">
+      <div class="wrap">
+        <div class="head">
+          <h2>View Products</h2>
+          <div class="arrows">
+            <button class="sq back" type="button" aria-label="Anterior" onclick="var t=document.getElementById('cTrack');t.scrollBy({left:-t.clientWidth/3})">←</button>
+            <button class="sq" type="button" aria-label="Siguiente" onclick="var t=document.getElementById('cTrack');t.scrollBy({left:t.clientWidth/3})">→</button>
+          </div>
+        </div>
+        <div class="ctrack" id="cTrack"></div>
+      </div>
+      <div class="glow">
+        <h2>Discrete Controlled Dosing</h2>
+        <a class="ulink" href="https://www.chupachups.es/productos">Check Our products</a>
+      </div>
+    </section>
+
+     <!-- PROMO CAROUSEL -->
+     <div class="wrap" style="padding:0">
+      <div class="promo">
+        <div class="track" id="pTrack">
+          <article class="slide">
+            <div class="img"><img src="https://cdn.sanity.io/images/e4jxgyeh/production/7a4f21df86337eac886f079e788c123578b1fe06-502x502.png?w=1080&q=85&auto=format" alt=""></div>
+            <div><h2 class="hf">Presentamos el Chupa Chups más difícil de abrir de la historia</h2><p>Hemos creado el Chupa Chups más difícil de abrir del mundo, con materiales a prueba de balas y los recubrimientos más duros conocidos por la humanidad. Los hemos enviado a creadores de contenido de todo el mundo. Sigue #ChupaChupsImpossible para ver quién logra abrirlo.</p><a class="btn" href="https://www.chupachups.es/easiertoopen-phase1">Descubre hasta dónde llegamos</a></div>
+          </article>
+          <article class="slide">
+            <div class="img"><img src="https://cdn.sanity.io/images/e4jxgyeh/production/a9e4d7f5eae8e6f3562d6533cd1df276fe86570a-1024x1024.png?w=1080&q=85&auto=format" alt=""></div>
+            <div><h2 class="hf">-35% de dto. en PortAventura World</h2><p>Por la compra de 3 bolsas con la promoción de Port Aventura World podrás obtener descuentos para la entrada de hasta 4 personas.</p><a class="btn" href="https://pmkt.es/chupachups">Más información</a></div>
+          </article>
+          <article class="slide">
+            <div class="img"><img src="https://cdn.sanity.io/images/e4jxgyeh/production/a2788cb6448ab831ecbf25086abcf7fb985b5bb6-623x624.png?w=1080&q=85&auto=format" alt=""></div>
+            <div><h2 class="hf">Siente la experiencia Mads</h2><p>Descubre las nuevas gominolas MADS: blandas por dentro, crujientes por fuera. Siente la nueva experiencia multisensorial con Chupa Chups MADS.</p><a class="btn" href="https://www.chupachups.es/mads">Descubre más</a></div>
+          </article>
+          <article class="slide">
+            <div class="img"><img src="https://cdn.sanity.io/images/e4jxgyeh/production/3f5a4b35d05fcb0e97a9894387987779979d3374-1024x1024.png?w=1080&q=85&auto=format" alt=""></div>
+            <div><h2 class="hf">Pide tus Chupa Chups desde casa</h2><p>Con nuestros mega formatos, tendrás Chupa Chups para cualquier ocasión, pero ojo… ¡se acaban sin darte cuenta!</p><a class="btn" href="https://www.amazon.es/stores/ChupaChups/page/5A822ED4-DEC0-4493-9803-AF8BC57ECBA9?ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto">Comprar</a></div>
+          </article>
+          <article class="slide">
+            <div class="img"><img src="https://cdn.sanity.io/images/e4jxgyeh/production/e771364d1bfa873c3dbaacc3d3d690524dd1494d-735x735.png?w=1080&q=85&auto=format" alt=""></div>
+            <div><h2 class="hf">Conoce la historia de Chupa Chups</h2><p>¿Examen sorpresa? ¡No hombre, no! Que estamos de broma. Solo queremos que nos conozcas mejor y que te diviertas con las anécdotas más curiosas que hemos vivido durante estos años.</p><a class="btn" href="https://www.chupachups.es/history">¡Vamos allá!</a></div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <div class="promo-arrows"><div class="arrows">
+      <button class="sq back" type="button" aria-label="Anterior" onclick="var t=document.getElementById('pTrack');t.scrollBy({left:-t.clientWidth})">←</button>
+      <button class="sq" type="button" aria-label="Siguiente" onclick="var t=document.getElementById('pTrack');t.scrollBy({left:t.clientWidth})">→</button>
+    </div></div>
+    
+    <!-- FAQ -->
+    <section style="position:relative">
+      <img class="deco" src="https://www.chupachups.es/decorations/chupachups/orange-right.png" alt="" style="right:14%;top:-120px;height:140px;z-index:2">
+      <div class="wrap">
+        <div class="faq">
+          <a href="https://www.chupachups.es/faq"><h3>¿Dónde puedo encontrar los productos Chupa Chups?</h3><span class="sq">→</span></a>
+          <a href="https://www.chupachups.es/faq"><h3>¿Los productos Chupa Chups tienen azúcar?</h3><span class="sq">→</span></a>
+          <a href="https://www.chupachups.es/faq"><h3>¿Cuántos Chupa Chups se necesitan para llegar a la Luna?</h3><span class="sq">→</span></a>
+        </div>
+        <div class="faqlink"><a class="ulink" href="https://www.chupachups.es/faq" style="font-weight:500">FAQ</a></div>
+      </div>
+    </section>
+
+    <!-- SOCIAL -->
+    <section class="social">
+      <img class="deco" src="https://www.chupachups.es/decorations/chupachups/strawberry-cream.png" alt="" style="right:14%;bottom:-40px;height:150px">
+      <div class="wrap">
+        <h2>Follow Us on Social</h2>
+        <p>Aventuras, diversión, blogs, inspiración, ¡y mucho más!</p>
+        <div class="icons" id="soc1"></div>
+      </div>
+    </section>
+
+    <!-- FEATURED PRODUCT -->
+    <section class="feat">
+      <img class="deco" src="https://www.chupachups.es/decorations/chupachups/lightning.svg" alt="" style="left:16%;top:14rem;height:60px">
+      <img class="deco" src="https://www.chupachups.es/decorations/chupachups/triangle.svg" alt="" style="right:14%;top:16rem;height:60px">
+      <div class="wrap" style="text-align:left">
+        <h2 style="text-align:center">Echa un vistazo a<br>nuestros productos</h2>
+        <div class="fcard">
+          <div class="c" style="color:#7a4a1c"><svg viewBox="0 0 60 150"><use href="#lolli"/></svg></div>
+          <h3>Chupa Chups® sabor Cacao Vainilla</h3>
+          <small>✓ &nbsp;Vegetariano</small>
+          <a class="btn" href="https://www.chupachups.es/productos/chupa-chups-sabor-cacao-vainilla">Ver producto</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img class="deco" src="https://www.chupachups.es/decorations/chupachups/rectangle-green.svg" alt="" style="left:48%;top:-30px;height:60px">
+    <div class="wrap">
+      <div class="fcols">
+        <div><h3>Nuevos<br>productos</h3><ul>
+          <li><a href="https://www.chupachups.es/productos/bolsa-the-best-of-10"><i>→</i>Bolsa The Best Of 10</a></li>
+          <li><a href="https://www.chupachups.es/productos/bolsa-xxl-flavour-playlist"><i>→</i>Bolsa XXL Flavour Playlist</a></li>
+          <li><a href="https://www.chupachups.es/productos/bolsa-de-lenguas"><i>→</i>Bolsa de Lenguas</a></li></ul></div>
+        <div><h3>Nuestras<br>páginas</h3><ul>
+          <li><a href="https://www.chupachups.es/productos"><i>→</i>Productos</a></li>
+          <li><a href="https://www.chupachups.es/historia"><i>→</i>Historia</a></li>
+          <li><a href="https://www.chupachups.es/promociones"><i>→</i>Promociones</a></li>
+          <li><a href="https://www.chupachups.es/faq"><i>→</i>FAQ</a></li></ul></div>
+        <div><h3>Categorías</h3><ul id="fcats"></ul></div>
+      </div>
+      <div class="icons" id="soc2"></div>
+      <div class="legal">
+        <ul>
+          <li><a href="https://www.chupachups.es/aviso-legal">Aviso Legal</a></li>
+          <li><a href="https://www.chupachups.es/política-de-privacidad">Política de Privacidad</a></li>
+          <li><a href="https://www.chupachups.es/política-de-cookies">Política de Cookies</a></li>
+          <li><a href="https://www.chupachups.es/contacto">Contacto</a></li>
+          <li><a href="https://www.chupachups.com">Países</a></li>
+          <li><a href="https://www.chupachups.es/sostenibilidad">Sostenibilidad</a></li>
+        </ul>
+        <small>© Perfetti Van Melle SpA 2026</small>
+      </div>
+    </div>
+  </footer>
+</div>
+
+  <!-- REEVES SEASONAL PICKS -->
+<section class="reeves-picks">
+  <div class="reeves-picks-container">
+
+    <div class="reeves-picks-header">
+      <p class="reeves-picks-kicker">Fall Cleanup &amp; Winter Prep</p>
+      <h2 class="reeves-picks-title">Reeves Seasonal Picks</h2>
+      <p class="reeves-picks-description">
+        Get ready for cooler days with pipe protection, heaters, firelogs,
+        hand warmers and fall cleanup essentials.
+      </p>
+    </div>
+
+    <div class="reeves-picks-carousel">
+
+      <button class="reeves-picks-arrow reeves-picks-left" type="button" aria-label="View previous products" onclick="var t=this.parentElement.querySelector('.reeves-picks-track'); if(t){var c=t.querySelector('.reeves-pick-card'); t.scrollBy({left:-(c ? c.getBoundingClientRect().width+16 : 320),behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});} return false;">
+        ‹
+      </button>
+
+      <div class="reeves-picks-track" id="reevesPicksTrack" tabindex="0" aria-label="Seasonal product carousel">
+
+        <a class="reeves-pick-card" href="https://reevesazlehardware.com/p/frost-king-fiberglass-pipe-wrap-077578023014">
+          <div class="reeves-pick-image-wrap">
+            <span class="reeves-pick-tag">Freeze Prep</span>
+            <img class="reeves-pick-image" src="https://storage.googleapis.com/ezimage-cache/noscale/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NvbnRlbnQuZXphZHR2LmNvbS8yMDI0LzAzLzMwLzIwMjQwMzMwXzY2MDgzMThjMmI3MTYuanBn.webp" alt="Frost King Fiberglass Pipe Wrap Kit, 3 In. x 25 Ft." loading="lazy" decoding="async">
+          </div>
+          <div class="reeves-pick-content">
+            <p class="reeves-pick-brand">Frost King</p>
+            <h3 class="reeves-pick-name">Fiberglass Pipe Wrap Kit, 3 In. x 25 Ft.</h3>
+            <p class="reeves-pick-note">&nbsp;</p>
+            <p class="reeves-pick-price">$5.99</p>
+            <span class="reeves-pick-link">View Product <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <a class="reeves-pick-card" href="https://reevesazlehardware.com/p/frost-king-fiberglass-foil-pipe-insulation-077578014999">
+          <div class="reeves-pick-image-wrap">
+            <span class="reeves-pick-tag">Pipe Protection</span>
+            <img class="reeves-pick-image" src="https://storage.googleapis.com/ezimage-cache/noscale/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NvbnRlbnQuZXphZHR2LmNvbS8yMDI0LzAzLzMwLzIwMjQwMzMwXzY2MDgzNmZlNzQwNjQuanBlZw.webp" alt="Frost King Fiberglass Pipe Insulation Kit, 1 x 3 In. x 25 Ft." loading="lazy" decoding="async">
+          </div>
+          <div class="reeves-pick-content">
+            <p class="reeves-pick-brand">Frost King</p>
+            <h3 class="reeves-pick-name">Fiberglass Pipe Insulation Kit, 1 x 3 In. x 25 Ft.</h3>
+            <p class="reeves-pick-note">&nbsp;</p>
+            <p class="reeves-pick-price">$11.99</p>
+            <span class="reeves-pick-link">View Product <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <a class="reeves-pick-card" href="https://reevesazlehardware.com/p/tundra-wall-semi-slit-polyolefin-pipe-insulation-wrap-064849340376">
+          <div class="reeves-pick-image-wrap">
+            <span class="reeves-pick-tag">Winter Prep</span>
+            <img class="reeves-pick-image" src="https://storage.googleapis.com/ezimage-cache/noscale/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NvbnRlbnQuZXphZHR2LmNvbS8yMDI0LzAzLzMxLzIwMjQwMzMxXzY2MDk4N2Y4OWQzZTguanBlZw.webp" alt="Armacell Tundra Pipe Insulation, 3/4 In. x 6 Ft." loading="lazy" decoding="async">
+          </div>
+          <div class="reeves-pick-content">
+            <p class="reeves-pick-brand">Armacell</p>
+            <h3 class="reeves-pick-name">Tundra Pipe Insulation, 3/4 In. x 6 Ft.</h3>
+            <p class="reeves-pick-note">&nbsp;</p>
+            <p class="reeves-pick-price">$3.49</p>
+            <span class="reeves-pick-link">View Product <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <a class="reeves-pick-card" href="https://reevesazlehardware.com/p/frost-king-foam-faucet-cover-protector-077578018157">
+          <div class="reeves-pick-image-wrap">
+            <span class="reeves-pick-tag">Faucet Protection</span>
+            <img class="reeves-pick-image" src="https://storage.googleapis.com/ezimage-cache/noscale/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NvbnRlbnQuZXphZHR2LmNvbS8yMDI0LzAzLzMwLzIwMjQwMzMwXzY2MDgzYTkyODdhZDcuanBn.webp" alt="Frost King Oval Outdoor Faucet Cover" loading="lazy" decoding="async">
+          </div>
+          <div class="reeves-pick-content">
+            <p class="reeves-pick-brand">Frost King</p>
+            <h3 class="reeves-pick-name">Oval Outdoor Faucet Cover</h3>
+            <p class="reeves-pick-note">&nbsp;</p>
+            <p class="reeves-pick-price">$4.59</p>
+            <span class="reeves-pick-link">View Product <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <a class="reeves-pick-card" href="https://reevesazlehardware.com/p/perfect-aire-utility-milkhouse-heater-842149000424">
+          <div class="reeves-pick-image-wrap">
+            <span class="reeves-pick-tag">Stay Warm</span>
+            <img class="reeves-pick-image" src="https://storage.googleapis.com/ezimage-cache/noscale/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NvbnRlbnQuZXphZHR2LmNvbS8yMDI0LzAzLzMxLzIwMjQwMzMxXzY2MDlhYjZkYTFkODMuanBlZw.webp" alt="Perfect Aire 1500W Utility Milkhouse Heater" loading="lazy" decoding="async">
+          </div>
+          <div class="reeves-pick-content">
+            <p class="reeves-pick-brand">Perfect Aire</p>
+            <h3 class="reeves-pick-name">1500W Utility Milkhouse Heater</h3>
+            <p class="reeves-pick-note">Indoor electric heater</p>
+            <p class="reeves-pick-price">$33.99</p>
+            <span class="reeves-pick-link">View Product <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <a class="reeves-pick-card" href="https://reevesazlehardware.com/p/hpq15a-m-watts-ceramic-tower-heater-045734626768">
+          <div class="reeves-pick-image-wrap">
+            <span class="reeves-pick-tag">Home Comfort</span>
+            <img class="reeves-pick-image" src="https://storage.googleapis.com/ezimage-cache/noscale/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NvbnRlbnQuZXphZHR2LmNvbS8yMDI0LzAzLzMxLzIwMjQwMzMxXzY2MDhmZDkwMWNiMjQuanBn.webp" alt="PowerZone Oscillating Ceramic Tower Electric Heater" loading="lazy" decoding="async">
+          </div>
+          <div class="reeves-pick-content">
+            <p class="reeves-pick-brand">PowerZone</p>
+            <h3 class="reeves-pick-name">Oscillating Ceramic Tower Electric Heater</h3>
+            <p class="reeves-pick-note">Two heat settings</p>
+            <p class="reeves-pick-price">$49.99</p>
+            <span class="reeves-pick-link">View Product <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <a class="reeves-pick-card" href="https://reevesazlehardware.com/p/firelog-fr-eng-041137506041">
+          <div class="reeves-pick-image-wrap">
+            <span class="reeves-pick-tag">Fireplace Season</span>
+            <img class="reeves-pick-image" src="https://storage.googleapis.com/ezimage-cache/noscale/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NvbnRlbnQuZXphZHR2LmNvbS8yMDI0LzAzLzMxLzIwMjQwMzMxXzY2MDkyNjk3OWM3YzMuanBn.webp" alt="Duraflame 4 Lb. Firelog, 3-Hour Burn" loading="lazy" decoding="async">
+          </div>
+          <div class="reeves-pick-content">
+            <p class="reeves-pick-brand">Duraflame</p>
+            <h3 class="reeves-pick-name">4 Lb. Firelog, 3-Hour Burn</h3>
+            <p class="reeves-pick-note">Single firelog</p>
+            <p class="reeves-pick-price">$4.99</p>
+            <span class="reeves-pick-link">View Product <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <a class="reeves-pick-card" href="https://reevesazlehardware.com/p/csl-creosote-sweeping-fire-log-021363824003">
+          <div class="reeves-pick-image-wrap">
+            <span class="reeves-pick-tag">Fireplace Care</span>
+            <img class="reeves-pick-image" src="https://storage.googleapis.com/ezimage-cache/noscale/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NvbnRlbnQuZXphZHR2LmNvbS8yMDI0LzA0LzAxLzIwMjQwNDAxXzY2MGE1YWRlMDE2ZDkuanBlZw.webp" alt="CSL Creosote Sweeping Log, 1 Pack" loading="lazy" decoding="async">
+          </div>
+          <div class="reeves-pick-content">
+            <p class="reeves-pick-brand">CSL</p>
+            <h3 class="reeves-pick-name">Creosote Sweeping Log, 1 Pack</h3>
+            <p class="reeves-pick-note">&nbsp;</p>
+            <p class="reeves-pick-price">$18.99</p>
+            <span class="reeves-pick-link">View Product <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <a class="reeves-pick-card" href="https://reevesazlehardware.com/p/grabber-warmers-hand-warmer-031626055891">
+          <div class="reeves-pick-image-wrap">
+            <span class="reeves-pick-tag">Cold Mornings</span>
+            <img class="reeves-pick-image" src="https://storage.googleapis.com/ezimage-cache/noscale/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NvbnRlbnQuZXphZHR2LmNvbS8yMDI0LzAzLzMxLzIwMjQwMzMxXzY2MDk3ZWM4MTFhNDcuanBlZw.webp" alt="Grabber Warmers Hand Warmers, 10 Pack" loading="lazy" decoding="async">
+          </div>
+          <div class="reeves-pick-content">
+            <p class="reeves-pick-brand">Grabber Warmers</p>
+            <h3 class="reeves-pick-name">Hand Warmers, 10 Pack</h3>
+            <p class="reeves-pick-note">&nbsp;</p>
+            <p class="reeves-pick-price">$8.99</p>
+            <span class="reeves-pick-link">View Product <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <a class="reeves-pick-card" href="https://reevesazlehardware.com/p/thaw-tha-hnd-0017-small-rechargeable-hand-warmer-645397002826">
+          <div class="reeves-pick-image-wrap">
+            <span class="reeves-pick-tag">Outdoor Warmth</span>
+            <img class="reeves-pick-image" src="https://storage.googleapis.com/ezimage-cache/noscale/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NvbnRlbnQuZXphZHR2LmNvbS8yMDI0LzAzLzMxLzIwMjQwMzMxXzY2MDk5OTBlMzJhZTUuanBn.webp" alt="THAW Small Rechargeable Hand Warmer" loading="lazy" decoding="async">
+          </div>
+          <div class="reeves-pick-content">
+            <p class="reeves-pick-brand">THAW</p>
+            <h3 class="reeves-pick-name">Small Rechargeable Hand Warmer</h3>
+            <p class="reeves-pick-note">&nbsp;</p>
+            <p class="reeves-pick-price">$31.99</p>
+            <span class="reeves-pick-link">View Product <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <a class="reeves-pick-card" href="https://reevesazlehardware.com/p/milwaukee-m18-fuel-battery-handheld-leaf-blower-tool-only-045242823963">
+          <div class="reeves-pick-image-wrap">
+            <span class="reeves-pick-tag">Fall Cleanup</span>
+            <img class="reeves-pick-image" src="https://storage.googleapis.com/ezimage-cache/noscale/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NvbnRlbnQuZXphZHR2LmNvbS8yMDI1LzAyLzAzLzIwMjUwMjAzXzY3YTBmYzgyNjliZDAuanBn.webp" alt="Milwaukee M18 FUEL 500 CFM Leaf Blower" loading="lazy" decoding="async">
+          </div>
+          <div class="reeves-pick-content">
+            <p class="reeves-pick-brand">Milwaukee</p>
+            <h3 class="reeves-pick-name">M18 FUEL 500 CFM Leaf Blower</h3>
+            <p class="reeves-pick-note">Tool only; battery and charger sold separately</p>
+            <p class="reeves-pick-price">$199.99</p>
+            <span class="reeves-pick-link">View Product <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <a class="reeves-pick-card" href="https://reevesazlehardware.com/p/dewalt-max-dcbl722p1-battery-handheld-blower-kit-battery-charger-885911676083-2309912">
+          <div class="reeves-pick-image-wrap">
+            <span class="reeves-pick-tag">Fall Cleanup</span>
+            <img class="reeves-pick-image" src="https://storage.googleapis.com/ezimage-cache/noscale/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NvbnRlbnQuZXphZHR2LmNvbS8yMDI0LzAzLzMwLzIwMjQwMzMwXzY2MDg0Y2Y3MGYxNTYuanBlZw.webp" alt="DeWalt 20V MAX Brushless Leaf Blower Kit" loading="lazy" decoding="async">
+          </div>
+          <div class="reeves-pick-content">
+            <p class="reeves-pick-brand">DeWalt</p>
+            <h3 class="reeves-pick-name">20V MAX Brushless Leaf Blower Kit</h3>
+            <p class="reeves-pick-note">DCBL722P1; includes battery and charger</p>
+            <p class="reeves-pick-price">$249.99</p>
+            <span class="reeves-pick-link">View Product <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <a class="reeves-pick-card" href="https://reevesazlehardware.com/p/luster-leaf-lawn-leaf-bag-holder-open-035307006509">
+          <div class="reeves-pick-image-wrap">
+            <span class="reeves-pick-tag">Leaf Bagging</span>
+            <img class="reeves-pick-image" src="https://storage.googleapis.com/ezimage-cache/noscale/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL2NvbnRlbnQuZXphZHR2LmNvbS8yMDI0LzAzLzMxLzIwMjQwMzMxXzY2MDk2ZTViMWM1NzguanBlZw.webp" alt="Luster Leaf 30 Gal. Lawn & Leaf Bag Holder" loading="lazy" decoding="async">
+          </div>
+          <div class="reeves-pick-content">
+            <p class="reeves-pick-brand">Luster Leaf</p>
+            <h3 class="reeves-pick-name">30 Gal. Lawn &amp; Leaf Bag Holder</h3>
+            <p class="reeves-pick-note">Bag holder; bags sold separately</p>
+            <p class="reeves-pick-price">$15.99</p>
+            <span class="reeves-pick-link">View Product <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+        <a class="reeves-pick-card" href="https://reevesazlehardware.com/p/craftsman-bagger-only-twin-bin-bagger-in-889021314453">
+          <div class="reeves-pick-image-wrap">
+            <span class="reeves-pick-tag">Special Order</span>
+            <img class="reeves-pick-image" src="https://storage.googleapis.com/ezimage-cache/noscale/aHR0cHM6Ly9zdG9yYWdlLmdvb2dsZWFwaXMuY29tL3Byb2R1Y3RzLmV6YWR0di5jb20vZWNvbS1pbWFnZS12Mi8wMDA2MzQxODhkNWMyN2RmNjZjMDY5ZWIuanBlZw.webp" alt="Craftsman Twin-Bin Mower Bagger, 42-46 In. Decks" loading="lazy" decoding="async">
+          </div>
+          <div class="reeves-pick-content">
+            <p class="reeves-pick-brand">Craftsman</p>
+            <h3 class="reeves-pick-name">Twin-Bin Mower Bagger, 42-46 In. Decks</h3>
+            <p class="reeves-pick-note">Special order; confirm mower model compatibility</p>
+            <p class="reeves-pick-price">$449.99</p>
+            <span class="reeves-pick-link">View Product <span aria-hidden="true">→</span></span>
+          </div>
+        </a>
+
+      </div>
+
+      <button class="reeves-picks-arrow reeves-picks-right" type="button" aria-label="View more products" onclick="var t=this.parentElement.querySelector('.reeves-picks-track'); if(t){var c=t.querySelector('.reeves-pick-card'); t.scrollBy({left:(c ? c.getBoundingClientRect().width+16 : 320),behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});} return false;">
+        ›
+      </button>
+
+    </div>
+
+    <p class="reeves-picks-disclaimer">
+      Prices and availability are subject to change. Contact Reeves Azle
+      Hardware to confirm current inventory.
+    </p>
+
+  </div>
+</section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
